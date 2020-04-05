@@ -4,7 +4,7 @@
     <contextParameter comment="" name="connection_mysql_moviecatalog_Login" prompt="connection_mysql_moviecatalog_Login?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="rkouanang"/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_Server" prompt="connection_mysql_moviecatalog_Server?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="192.168.199.2"/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_Port" prompt="connection_mysql_moviecatalog_Port?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="3306"/>
-    <contextParameter comment="" name="connection_mysql_moviecatalog_Password" prompt="connection_mysql_moviecatalog_Password?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_Password" value="enc:system.encryption.key.v1:2jM06A8aJIau9B7uz1jKxroH7mnoVOUUYSC5G2+hB/MfVJI85lA="/>
+    <contextParameter comment="" name="connection_mysql_moviecatalog_Password" prompt="connection_mysql_moviecatalog_Password?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_Password" value="enc:system.encryption.key.v1:T4S5Y23KTaHA6/qcOk+8CIQ/3F4GnkYjZqEvIV1QMBdQCrdb/kM="/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_AdditionalParams" prompt="connection_mysql_moviecatalog_AdditionalParams?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="noDatetimeStringSync=true"/>
   </context>
   <parameters>
@@ -49,7 +49,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:SZdUMiONSsOxqT9ZZ6oWh9mCdjhkiZRzkoBVYou2"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:3HSmalGgIXKVJ8q/HyKJ34IWnQKow9VsogKThjEv"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -84,7 +84,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:3tfXyndjnNqW5jfmQqQ1J9cs7m0CPEakQNgIDjCn"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:YxVw/pJNNOSgFWwtB3fOX59+5073/9KlD4pw28ph"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -196,7 +196,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_moviecatalog_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_moviecatalog_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pdwjqZUjLMO2Lj/VC3HO/orEIul+Uj1qBZTtuqnKa/MRPPNijaVsNHb+jL5PadL4pQQp/gJ/cvW2wEuyUvy80lXRLA1OtvJSsfU="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hLmqsPfjIjaPvvlySminjQv+JL9eiTpkiwLUz5cH3NGd0b4AiE/wrkr3vURrBNRJ6R5czNFHi/dhu/fzoxs2m3LLoyrn4LeKxx8="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_sT6XoHdbEeqYu_FN49GWlQ - movies"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
@@ -350,7 +350,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_moviecatalog_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_moviecatalog_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1JC9n4RArzlL/f7aJEah+F2iZlBMx3XtIhn2JMXykXy0204T3w7iRmOcGReUPWn3bn1u2bPc7G/evXSl7GRrKb/9v8KMmGUVlbI="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vj4/ucDLy2i1l3tpVMh3lx1h7iXTqSn3mVQmeDlb9uSe+O8G+beruunZNAy0j4cI6jlkeHn08gqjYFNUwQtLVSYlGkQyUuRDEmA="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -461,7 +461,95 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="32">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_sT6XoHdbEeqYu_FN49GWlQ"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_mysql_moviecatalog_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_moviecatalog_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_moviecatalog_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_mysql_moviecatalog_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vhKya18C/EUuyaZGM3LIk5DzxSBLEjbq1KU5E5AMRRYgMB+kmNrtWpBeQghbKedK0Vx/Nzr08fyXAEocpYWL95aBI3rN8d4YA0A="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_sT6XoHdbEeqYu_FN49GWlQ - movies"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;jdbc/tac&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_moviecatalog_AdditionalParams"/>
+    <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="movieId"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="title"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="releaseYear"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="director"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="price"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_1">
+      <column comment="" key="false" length="-1" name="movieId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="releaseYear" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="director" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="price" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="movieId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="releaseYear" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="director" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="price" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_3"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
@@ -471,33 +559,21 @@
       <column defaultValue="" key="false" length="0" name="body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
-      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row3">
-        <nodes name="movieId" outgoingConnections="//@node.9/@nodeData/@connections.0" type="id_Integer" xpath="row3/movieId"/>
-        <nodes name="title" outgoingConnections="//@node.9/@nodeData/@connections.1" type="id_String" xpath="row3/title"/>
-        <nodes name="releaseYear" outgoingConnections="//@node.9/@nodeData/@connections.2" type="id_String" xpath="row3/releaseYear"/>
-        <nodes name="director" outgoingConnections="//@node.9/@nodeData/@connections.3" type="id_String" xpath="row3/director"/>
-        <nodes name="price" outgoingConnections="//@node.9/@nodeData/@connections.4" type="id_String" xpath="row3/price"/>
-      </inputTrees>
       <outputTrees name="out2">
         <nodes expression="" name="body" type="id_Document" xpath="out2/body">
           <children expression="" loop="true" main="true" name="movie" type="id_String" xpath="out2.body:/movie" xsi:type="TalendXMLMap:OutputTreeNode">
-            <children expression="row3.movieId" incomingConnections="//@node.9/@nodeData/@connections.0" name="movieId" type="id_Integer" xpath="out2.body:/movie/movieId" xsi:type="TalendXMLMap:OutputTreeNode"/>
-            <children expression="row3.title" incomingConnections="//@node.9/@nodeData/@connections.1" name="title" type="id_String" xpath="out2.body:/movie/title" xsi:type="TalendXMLMap:OutputTreeNode"/>
-            <children expression="row3.releaseYear" incomingConnections="//@node.9/@nodeData/@connections.2" name="releaseYear" type="id_String" xpath="out2.body:/movie/releaseYear" xsi:type="TalendXMLMap:OutputTreeNode"/>
-            <children expression="row3.director" incomingConnections="//@node.9/@nodeData/@connections.3" name="director" type="id_String" xpath="out2.body:/movie/director" xsi:type="TalendXMLMap:OutputTreeNode"/>
-            <children expression="row3.price" incomingConnections="//@node.9/@nodeData/@connections.4" name="price" type="id_String" xpath="out2.body:/movie/price" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="row3.movieId" name="movieId" type="id_Integer" xpath="out2.body:/movie/movieId" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="row3.title" name="title" type="id_String" xpath="out2.body:/movie/title" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="row3.releaseYear" name="releaseYear" type="id_String" xpath="out2.body:/movie/releaseYear" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="row3.director" name="director" type="id_String" xpath="out2.body:/movie/director" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="row3.price" name="price" type="id_String" xpath="out2.body:/movie/price" xsi:type="TalendXMLMap:OutputTreeNode"/>
           </children>
         </nodes>
       </outputTrees>
       <varTables minimized="true" name="Var"/>
-      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.0" target="//@node.9/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.1" target="//@node.9/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.2" target="//@node.9/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.3" target="//@node.9/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.4" target="//@node.9/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.4" xsi:type="TalendXMLMap:Connection"/>
     </nodeData>
   </node>
-  <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="32">
+  <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="992" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTResponse_3"/>
     <elementParameter field="REST_RESPONSE_SCHEMA_TYPE" name="RESPONSE_TYPE" value="id_Document"/>
     <elementParameter field="CLOSED_LIST" name="STATUS_CODE" value="200"/>
@@ -548,7 +624,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractXMLField_1" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_1" target="tXMLMap_3">
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractXMLField_1" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_1" target="tDBOutput_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="director"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
@@ -569,6 +645,10 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tDBOutput_1" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_1" target="tXMLMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
   <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_3" target="tRESTResponse_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out2"/>
@@ -578,13 +658,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_febf6533-daf4-4708-a372-ef4e81234734"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XbS0EweHJ32kalArGbOmD2rOo8aQMjl2bSwwR2Zr/3gn7XIYAPIMCx0uNNVE04RUCt18SqgfU7iz&#13;
-o68BDEkdvw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_658c296c-6fda-49c8-928d-200b6e41628d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MNqdJzFLDoE0fc8TRTon8byCCghBZqsEqRBh/zr0D5GK30tL0TQ90tSuxDUTx01pmJDWHN0CEZF+&#13;
-gFfYjGBRPQ==</DigestValue></Reference></SignedInfo><SignatureValue>SbkVOMni6k2S3rEMqVfqXPrcQA0OYxK1hwKj74JLzBRvKKlbxvNDsWqDslBWy9WPoVkf9C/rhCm7&#13;
-S/WtTS2dTd3d+WMWMsYuv5BInnHdYQ+CNC2kenYV2L4TTCEXyl2nQm1pf6uULKnSScws7ESAMlWR&#13;
-6QqISMGfSdtGhy1YKPJxkNy547NTYUqe8vNr/j2BRTeaCTA0QDyQaIew96bOsg+oBGbWGY/6XsH8&#13;
-87egVxeuOx0lhHx4wIxohIqtpz1iRtno/G8GY8CgClPl8yOX7MEt9qxgtMRoJFnl1xON9OB/Hrnq&#13;
-HFhoFsePrTaBGZQheV//XS4Lj2opN0Y7Ydly5Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4f5deb6e-b410-4f10-9bfc-bea6284b6ca6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lLfDAcZ6j22Hw1PrJlEY5KdkvfR9Bw3AGHrZi2fC+AYP/bU4+WIzGtyw1wEsCixTPlXdDgn6/1R8&#13;
+F5jtL0DhwQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b9948b72-504b-4611-909c-403e208f71fd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GiSfBSGeQclRyn3ASpLHl03iCDABrqpdGZuDZiYI/fwuGTSt3DST4e1yP+k3FGaXzYOQlQtBMxLg&#13;
+B+6pBrGHlg==</DigestValue></Reference></SignedInfo><SignatureValue>kdAVwKkyl3u0XyfSTQELV82DjIedfuQK8Z/Y1oKKZLc7fKUHxTwXrhWQjEefaRIAlN+Jklc0Y8yF&#13;
++Zz0Pvvc5PYAIcchf2ODk2zMFGXxPbWQWkeLiRTSc+BswciBsZTdH70IrPkOnWpyzOcDL4uk8KNH&#13;
+jvIpwed7rJWwFHo1EXcreMwaFcUfxwblef2YdXrJwNmYu3YOrKyM6Q0yrmdiaElZ+J5ueBExHAm5&#13;
+2uqWwXUDDu9upMVTQho57Ge91wKRB6W32B0W+XXeR9fejewVE2CqskzRLiGMafZjpgGFFlUCUqiK&#13;
+N+mk42aJl1mO0gv3nUFiwlynS7Xv9RQaduZyeQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -606,4 +686,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_658c296c-6fda-49c8-928d-200b6e41628d" Target="#_febf6533-daf4-4708-a372-ef4e81234734"><Timestamp>2020-04-05 17:24:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b9948b72-504b-4611-909c-403e208f71fd" Target="#_4f5deb6e-b410-4f10-9bfc-bea6284b6ca6"><Timestamp>2020-04-05 17:28:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
