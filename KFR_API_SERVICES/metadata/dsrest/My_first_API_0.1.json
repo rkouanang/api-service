@@ -1,0 +1,106 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "No description",
+    "version" : "1.0.0",
+    "title" : "My first API",
+    "contact" : { }
+  },
+  "host" : "do4qv08.eu.api-mocks.com",
+  "schemes" : [ "https" ],
+  "consumes" : [ "application/xml" ],
+  "produces" : [ "application/xml" ],
+  "paths" : {
+    "/movies" : {
+      "get" : {
+        "summary" : "Get a list of movies",
+        "description" : "Return the list of movies available for rental",
+        "operationId" : "getMovie",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "post" : {
+        "summary" : "Add a movie",
+        "description" : "Add a new movie to the catalog.",
+        "operationId" : "addMovie",
+        "consumes" : [ ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/Movie"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/movies/{movieId}" : {
+      "get" : {
+        "summary" : "Get information about a movie",
+        "description" : "\tReturns information about a specific movie.",
+        "operationId" : "getMovieById",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ {
+        "name" : "movieId",
+        "in" : "path",
+        "required" : true,
+        "type" : "string"
+      } ]
+    }
+  },
+  "securityDefinitions" : {
+    "Basic authentication" : {
+      "type" : "basic"
+    }
+  },
+  "definitions" : {
+    "Movie" : {
+      "type" : "object",
+      "properties" : {
+        "Movie" : {
+          "type" : "object",
+          "properties" : {
+            "movieId" : {
+              "type" : "integer",
+              "description" : "Id of the movie"
+            },
+            "title" : {
+              "type" : "string",
+              "description" : "Title of the movie"
+            },
+            "releaseYear" : {
+              "type" : "string",
+              "description" : "Release year of the movie"
+            },
+            "director" : {
+              "type" : "string",
+              "description" : "Director of the movie"
+            },
+            "price" : {
+              "type" : "number",
+              "description" : "Price of the movie"
+            }
+          }
+        }
+      },
+      "description" : "Represents a movie",
+      "example" : "<movie>\n    <movieId>1</movieId>\n    <title>The Social Network</title>\n    <releaseYear>2010</releaseYear>\n    <director>David Fincher</director>\n    <price>4.99</price>\n</movie>"
+    }
+  }
+}
