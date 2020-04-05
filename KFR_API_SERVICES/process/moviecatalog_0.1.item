@@ -4,7 +4,7 @@
     <contextParameter comment="" name="connection_mysql_moviecatalog_Login" prompt="connection_mysql_moviecatalog_Login?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="rkouanang"/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_Server" prompt="connection_mysql_moviecatalog_Server?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="192.168.199.2"/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_Port" prompt="connection_mysql_moviecatalog_Port?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="3306"/>
-    <contextParameter comment="" name="connection_mysql_moviecatalog_Password" prompt="connection_mysql_moviecatalog_Password?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_Password" value="enc:system.encryption.key.v1:0/jKrMLHlvYQB2CYBIsWRRMcZI0JBqPmtQnBYFY7qvq7Qd1jrL0="/>
+    <contextParameter comment="" name="connection_mysql_moviecatalog_Password" prompt="connection_mysql_moviecatalog_Password?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_Password" value="enc:system.encryption.key.v1:Gpc9FndJPR9eE5ANrWSdrKRg5p4LFDb8ciwxIuPAPGMuUfkdAx4="/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_AdditionalParams" prompt="connection_mysql_moviecatalog_AdditionalParams?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="noDatetimeStringSync=true"/>
   </context>
   <parameters>
@@ -49,7 +49,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:zS6YIx/MC+7bjqLFSWhNvSrVqmfqinJOSr1Z+D7q"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:JA0lBJzFrCdiBpX5bRW549dK3bNusXINUmscFWPS"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -84,7 +84,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:QHNcoYiJipC/36h0LRAnvo24yXBOQVk9BlJtjMIx"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Gw0dgLLEVSLWbXm94vf5wzjOksAnTF9i/Vsa7GMV"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -194,7 +194,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_moviecatalog_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_moviecatalog_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iaDvINqwL5cAKAeiwhTyBFhE53kJ6PsaFw60qqo6/wBNvIyDka+MgoUuNI92dNyQi2yT9eyBj0dXclpRRLw9BxB9vBcCiDWUEAk="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Kx8TLdM7f1kUUrxzd9a2POnQnTl+PWEWYtT9201sRJ5tCoOtkarvI8k523VbEo/L/bgZ9QpLPnzY4X4EUJyYWwf/dgLKnVRrc3Q="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_sT6XoHdbEeqYu_FN49GWlQ - movies"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
@@ -310,7 +310,7 @@
         <nodes lookupOutgoingConnections="//@node.5/@nodeData/@connections.0" name="movieId" type="id_String" xpath="getMovieById/movieId"/>
       </inputTrees>
       <inputTrees activateCondensedTool="true" activateGlobalMap="true" lookup="true" lookupMode="RELOAD" matchingMode="UNIQUE_MATCH" name="row2">
-        <nodes expression="getMovieById.movieId" lookupIncomingConnections="//@node.5/@nodeData/@connections.0" name="movieId" outgoingConnections="//@node.5/@nodeData/@connections.1" type="id_String" xpath="row2/movieId"/>
+        <nodes expression="String.valueOf(getMovieById.movieId) " lookupIncomingConnections="//@node.5/@nodeData/@connections.0" name="movieId" outgoingConnections="//@node.5/@nodeData/@connections.1" type="id_Integer" xpath="row2/movieId"/>
         <nodes name="title" outgoingConnections="//@node.5/@nodeData/@connections.2" type="id_String" xpath="row2/title"/>
         <nodes name="releaseYear" outgoingConnections="//@node.5/@nodeData/@connections.3" type="id_Integer" xpath="row2/releaseYear"/>
         <nodes name="director" outgoingConnections="//@node.5/@nodeData/@connections.4" type="id_String" xpath="row2/director"/>
@@ -348,7 +348,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_moviecatalog_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_moviecatalog_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TmGm4LUXMZkcx7QvDAt+Xp5XHWvnjtPInSkpKaPuXllKoyOmJXcXBEXpr4kLgDmMyd0S+yCrBovlSL36JR+oXrrAPlEacBrzyig="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eMlDt5dOPtnqHdANk0iph+wTNOWMm4dtzvejhkPhM5XR6DMLo8FNo+Ph25oTBDdROiV3QHSWxC7fJYhfVOf5fuw/wtA+jOwI2e4="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -379,7 +379,7 @@
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="movies" name="tDBInput_2">
-      <column comment="" key="false" length="10" name="movieId" nullable="true" pattern="" precision="0" sourceType="INT" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="10" name="movieId" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="255" name="title" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -444,13 +444,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5936a46f-8947-4947-a332-1976a783cf3e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IAQw0uxLD+oOgdStwurTcFmKHenldueAEyUH3MjfyMdgPj0iNLLVGtDgCS3okrelObs16GJZLl3S&#13;
-ow5pXPwerg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_50c946d6-19b5-424a-bfaf-611f158f3a51"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VdPDOMzTggGK1Cji83uIrryyZfTz/qpdk2TJrxu6FYQcrI1MAJHAKCMSU8yr2xDN11oWRmYMgZng&#13;
-Uwg6AfXNGA==</DigestValue></Reference></SignedInfo><SignatureValue>NyrSqQQJ4KoGjOAzGW3m1o4cIwEaNlrkXvuX2x1A5StmUQdXO56nWbKXeZAzmCF4friH7o7J6Xz4&#13;
-PNokr3nregQs8/Ndak9owIze01oQQS2Pvo5UISc4ilE7+z3mL7nmzjwwWcTay3zcyowCtBF86/ZG&#13;
-TMGw3QnAtBWt9mHJ+p4SSU6GnncLe6lufLzR0ahJ6QfkEdd2aJj6LYMF1a/H3xGhaKYhY52gsfoE&#13;
-Ca4ooI3scLmdVlZzkTUYBEXqCZBr+dOCwEYWlpCCPUSGyWezilHvg0j+3wL1+lmMVfvnvdTdw7NI&#13;
-DMCKfst7y3GjFpOrSIOsnlRvHNCrmflfCI82/g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a78f9f0c-6a30-4b75-b339-4a46d3c08bce"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wODifZ76/3UlqWNcCwzewRPddhheiiQKz90QDrq1Zj+gC23v+ZjKj6bv9hdQvwhot25ZSrRs+zQB&#13;
+wqphsHMXBA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_256a0475-c26a-461c-8fc4-2ce9ec207b30"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>d0ZHv82Mv3OmqRd8w02QY6NaU6OZHxCtXa06zE+RCJnV9BZiEHW3QIphH3a7Don2Bz8jxotphBJy&#13;
+KCJI6MEegA==</DigestValue></Reference></SignedInfo><SignatureValue>UShpVtlDOV63/UszG5bRrY1x9YvmGB9zhk5eH6gW0YyVlX/GRnQqAQxITkmssmFT6FdRQWyeUu4J&#13;
+y3hVwChZKF7SkNgKB62P2Er5C31rWOishg6l1jRBooWGyt2YBzUF+Mp7U5BdJGc6ZTvZjPnr5UNA&#13;
+JdMQUCmeQQV2BP1gwZUxed/b0NoeFXiK6hx7TSt3wkA1q4b+7dVhV1PIxCDo3uDC9mO6NBDTn9o3&#13;
+yAFB6ehomkWEP1vz37tm4Ux6DnhKPbjcMkfvQ0eepdhTuYvAovy7HzYj2HTTat0Pc/w5Svull8ss&#13;
+Bl8mv3aXGkxflI2NGFEJTsmbgdnK9/8intd/Tw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -472,4 +472,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_50c946d6-19b5-424a-bfaf-611f158f3a51" Target="#_5936a46f-8947-4947-a332-1976a783cf3e"><Timestamp>2020-04-05 17:13:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_256a0475-c26a-461c-8fc4-2ce9ec207b30" Target="#_a78f9f0c-6a30-4b75-b339-4a46d3c08bce"><Timestamp>2020-04-05 17:14:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
