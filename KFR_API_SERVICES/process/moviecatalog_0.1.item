@@ -4,7 +4,7 @@
     <contextParameter comment="" name="connection_mysql_moviecatalog_Login" prompt="connection_mysql_moviecatalog_Login?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="rkouanang"/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_Server" prompt="connection_mysql_moviecatalog_Server?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="192.168.199.2"/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_Port" prompt="connection_mysql_moviecatalog_Port?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="3306"/>
-    <contextParameter comment="" name="connection_mysql_moviecatalog_Password" prompt="connection_mysql_moviecatalog_Password?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_Password" value="enc:system.encryption.key.v1:/p2Vc6QW8WHlg+Oyh6+lzlbGHAbJUf0qH1Nx5Uy4l65QMZbT3jQ="/>
+    <contextParameter comment="" name="connection_mysql_moviecatalog_Password" prompt="connection_mysql_moviecatalog_Password?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_Password" value="enc:system.encryption.key.v1:0/jKrMLHlvYQB2CYBIsWRRMcZI0JBqPmtQnBYFY7qvq7Qd1jrL0="/>
     <contextParameter comment="" name="connection_mysql_moviecatalog_AdditionalParams" prompt="connection_mysql_moviecatalog_AdditionalParams?" promptNeeded="false" repositoryContextId="_5VCroHdbEeqYu_FN49GWlQ" type="id_String" value="noDatetimeStringSync=true"/>
   </context>
   <parameters>
@@ -49,7 +49,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:QlFddkgQM48plSGIfrXQE8NUzUFfCtmLgrqCWCHB"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:zS6YIx/MC+7bjqLFSWhNvSrVqmfqinJOSr1Z+D7q"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -84,7 +84,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ZFTdXTiMZY4jZ/EaxoZKjWQxbWO9GNjEc5NyISBm"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:QHNcoYiJipC/36h0LRAnvo24yXBOQVk9BlJtjMIx"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -194,7 +194,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_moviecatalog_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_moviecatalog_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:RNW7450bnQAy++YwmrG1X8AyvSrbPr2LMZdiwF1C746+flTdKR2fVlK6ZE1054vrClsGNUSb3AYAhBVD30Ow7ZiVZat7fwutBqQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iaDvINqwL5cAKAeiwhTyBFhE53kJ6PsaFw60qqo6/wBNvIyDka+MgoUuNI92dNyQi2yT9eyBj0dXclpRRLw9BxB9vBcCiDWUEAk="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_sT6XoHdbEeqYu_FN49GWlQ - movies"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
@@ -348,13 +348,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_moviecatalog_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_moviecatalog_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9kFiBMtN2iutpoJlnu/54XPGp3wTj+CGpSyQd2TKghhWJlTePVnYJTUi/nAWBUlD/xgyNIZVwEIyxuKNE+Waw4x8JBQbEhhGeqE="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TmGm4LUXMZkcx7QvDAt+Xp5XHWvnjtPInSkpKaPuXllKoyOmJXcXBEXpr4kLgDmMyd0S+yCrBovlSL36JR+oXrrAPlEacBrzyig="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `movies`.`movieId`, &#10;  `movies`.`title`, &#10;  `movies`.`releaseYear`, &#10;  `movies`.`director`, &#10;  `movies`.`price`&#10;FROM `movies`&#13;&#10;WHERE `movies`.`movieId` = &quot; + globalMap.get(&quot;movieId&quot;)"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `movies`.`movieId`, &#10;  `movies`.`title`, &#10;  `movies`.`releaseYear`, &#10;  `movies`.`director`, &#10;  `movies`.`price`&#10;FROM `movies`&#13;&#10;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -444,13 +444,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ea9ea4de-a75c-4774-aa94-13e3f62ac89c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>71833/jj0LIJxrc+pFqkITdVBf27oxfAsh+6cMaYHHA9WGK+ckcWiW4e7FapcQ8vSVWFSLLxPR69&#13;
-+1rcR5JLeg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1fc1c88a-4914-4871-87cf-3cd8a74e6dd0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L6bVza2PHwvX/osjct7l1gHf4vbDMYR6NDB+C4LmAvrlx2frR+5FY4gZYTF7yP7P+FSu1V4BccT7&#13;
-Ut9Sg5tmFA==</DigestValue></Reference></SignedInfo><SignatureValue>WXmJdJdY8bgqJnXXPNjlBmlB4qBp1KzXyccUsVDIYnlwc7kw8YyyMF0fAWwbg4/HULvZXOrYdjxR&#13;
-Ipa4E9wJ18QDxiRsUn3sVzDbBPjScodwGIe8p5ugEQmnroWrV7S2K2YoPa2OM1FbTfQv/cTNWjfC&#13;
-GHHtgVpgfoyAlA954NIrtyBMpN7AS7dLC8Njn+eSix46uXGVn2Mcfg3m7AqtxPsq3tQTj08COuxY&#13;
-AVfnPwyQq2FmEv/MF8Kz0flAKFxdy7ORzf9QzPNzGM4doojfBW8uqkisl7jWLWm2hpzJd+xjd5/2&#13;
-hFExU69rtAeZLwWQmLHUWfQKn7rai+LfSbsQWg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5936a46f-8947-4947-a332-1976a783cf3e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IAQw0uxLD+oOgdStwurTcFmKHenldueAEyUH3MjfyMdgPj0iNLLVGtDgCS3okrelObs16GJZLl3S&#13;
+ow5pXPwerg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_50c946d6-19b5-424a-bfaf-611f158f3a51"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VdPDOMzTggGK1Cji83uIrryyZfTz/qpdk2TJrxu6FYQcrI1MAJHAKCMSU8yr2xDN11oWRmYMgZng&#13;
+Uwg6AfXNGA==</DigestValue></Reference></SignedInfo><SignatureValue>NyrSqQQJ4KoGjOAzGW3m1o4cIwEaNlrkXvuX2x1A5StmUQdXO56nWbKXeZAzmCF4friH7o7J6Xz4&#13;
+PNokr3nregQs8/Ndak9owIze01oQQS2Pvo5UISc4ilE7+z3mL7nmzjwwWcTay3zcyowCtBF86/ZG&#13;
+TMGw3QnAtBWt9mHJ+p4SSU6GnncLe6lufLzR0ahJ6QfkEdd2aJj6LYMF1a/H3xGhaKYhY52gsfoE&#13;
+Ca4ooI3scLmdVlZzkTUYBEXqCZBr+dOCwEYWlpCCPUSGyWezilHvg0j+3wL1+lmMVfvnvdTdw7NI&#13;
+DMCKfst7y3GjFpOrSIOsnlRvHNCrmflfCI82/g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -472,4 +472,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1fc1c88a-4914-4871-87cf-3cd8a74e6dd0" Target="#_ea9ea4de-a75c-4774-aa94-13e3f62ac89c"><Timestamp>2020-04-05 17:12:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_50c946d6-19b5-424a-bfaf-611f158f3a51" Target="#_5936a46f-8947-4947-a332-1976a783cf3e"><Timestamp>2020-04-05 17:13:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
